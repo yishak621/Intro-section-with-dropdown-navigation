@@ -135,6 +135,9 @@ h4 {
   text-transform: capitalize;
   position: relative;
 }
+.nav-list_links a {
+  cursor: pointer;
+}
 
 .nav-list,
 .buttons-container {

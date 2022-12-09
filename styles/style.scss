@@ -120,6 +120,9 @@ p {
 .nav-list_links {
   text-transform: capitalize;
   position: relative;
+  a {
+    cursor: pointer;
+  }
 }
 
 .nav-list,
