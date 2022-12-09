@@ -22,7 +22,7 @@ these is basic dropdown menu practice including basic scripts of JS.
 
 ### Screenshot
 
-![](./yisscreen.png.jpg)
+![](/yisscreen.png)
 
 ### Links
 
