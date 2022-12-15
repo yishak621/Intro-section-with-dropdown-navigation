@@ -124,7 +124,13 @@ p {
     cursor: pointer;
   }
 }
-
+.nav-list_lists_links {
+  a {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
 .nav-list,
 .buttons-container {
   display: none;
@@ -175,12 +181,12 @@ p {
   color: $Almost-White;
   margin-bottom: 1rem;
   text-transform: none;
+  transition: all 0.5s linear;
 }
 .btn-learn:hover {
   background-color: $Almost-White;
   color: $Almost-Black;
   border: 0.5px solid $Almost-Black;
-  transform: scale(0.98);
 }
 .btn-wrapper {
   display: flex;
@@ -218,7 +224,7 @@ p {
   border-radius: 10px;
   box-shadow: $shadow-1;
   padding: 0.5rem 1.2rem;
-  animation: pop 1s ease-in-out;
+  animation: pop 0.5s ease-in-out;
   z-index: 2;
   a {
     font-size: 0.9rem;
@@ -256,7 +262,7 @@ p {
   position: fixed;
   top: 0;
   right: 0;
-  border: 1px solid red;
+
   width: 60vw;
   min-height: 100%;
 
